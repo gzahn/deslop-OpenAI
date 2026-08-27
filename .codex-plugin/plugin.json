@@ -1,0 +1,24 @@
+{
+  "name": "deslop",
+  "version": "1.0.0",
+  "description": "Remove formulaic AI-writing patterns from administrative prose while preserving meaning and exact details.",
+  "author": {
+    "name": "Geoff"
+  },
+  "license": "MIT",
+  "keywords": ["writing", "editing", "administrative-prose", "style"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Deslop",
+    "shortDescription": "Remove formulaic AI patterns from prose.",
+    "longDescription": "Deslop audits or revises administrative prose to remove formulaic AI-writing patterns while preserving meaning, precision, citations, literal text, and disciplinary conventions.",
+    "developerName": "Geoff",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Audit this text for AI-writing patterns without rewriting it.",
+      "Revise this administrative prose conservatively.",
+      "Remove formulaic phrasing while preserving every fact."
+    ]
+  }
+}
