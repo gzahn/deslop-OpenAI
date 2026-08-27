@@ -1,0 +1,8 @@
+interface:
+  display_name: "Deslop"
+  short_description: "Remove formulaic AI patterns from prose"
+  default_prompt: "Use $deslop to revise this administrative prose while preserving every fact and qualification."
+
+policy:
+  allow_implicit_invocation: false
+
